@@ -64,4 +64,16 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+//    implementation ("com.github.bumptech.glide:glide:4.11.0")
+    implementation files('libs/picasso-2.5.2.jar')
+
+//    implementation files('libs/glide.jar')
+//    annotationProcessor files('libs/compiler.jar')
+
+
+
+
+//    implementation files('libs/glide.jar')
+
+}
